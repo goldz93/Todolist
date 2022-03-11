@@ -1,0 +1,659 @@
+2020-10-14 20:34:15,266 DEBUG:Event present in queue
+2020-10-14 20:34:15,267 DEBUG:Trying to send event to platform
+2020-10-14 20:34:15,267 DEBUG:{'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'version': 'v0.0.17', 'properties': {'Environment': 'Sublime Text 3211', 'duration': 125}, 'streamid': '', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T20:33:15.264232+07:00'}
+2020-10-14 20:37:28,924 DEBUG:Event not sent due to some problem
+2020-10-14 20:37:28,924 ERROR:[WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 320, in _read_status
+  File "./python3.3/socket.py", line 297, in readinto
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2020-10-14 20:44:47,146 DEBUG:Event present in queue
+2020-10-14 20:44:47,147 DEBUG:Trying to send event to platform
+2020-10-14 20:44:47,147 DEBUG:{'source': 'Sublime Text Plugin', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'streamid': '', 'actionTags': ['Develop'], 'properties': {'duration': 103, 'Environment': 'Sublime Text 3211'}, 'dateTime': '2020-10-14T20:44:30.937385+07:00'}
+2020-10-14 20:45:08,171 DEBUG:Event not sent due to some problem
+2020-10-14 20:45:08,171 ERROR:<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+Traceback (most recent call last):
+  File "./python3.3/urllib/request.py", line 1248, in do_open
+  File "./python3.3/http/client.py", line 1065, in request
+  File "./python3.3/http/client.py", line 1103, in _send_request
+  File "./python3.3/http/client.py", line 1061, in endheaders
+  File "./python3.3/http/client.py", line 906, in _send_output
+  File "./python3.3/http/client.py", line 844, in send
+  File "./python3.3/http/client.py", line 822, in connect
+  File "./python3.3/socket.py", line 435, in create_connection
+  File "./python3.3/socket.py", line 426, in create_connection
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1251, in do_open
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+2020-10-14 20:50:08,178 DEBUG:Event present in queue
+2020-10-14 20:50:08,178 DEBUG:Trying to send event to platform
+2020-10-14 20:50:08,178 DEBUG:{'source': 'Sublime Text Plugin', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'streamid': '', 'actionTags': ['Develop'], 'properties': {'duration': 103, 'Environment': 'Sublime Text 3211'}, 'dateTime': '2020-10-14T20:44:30.937385+07:00'}
+2020-10-14 20:50:10,076 DEBUG:Event not sent due to some problem
+2020-10-14 20:50:10,076 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:04:13,143 DEBUG:Event present in queue
+2020-10-14 21:04:13,143 DEBUG:Trying to send event to platform
+2020-10-14 21:04:13,143 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:04:29,117 DEBUG:Event not sent due to some problem
+2020-10-14 21:04:29,117 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:22:30,612 DEBUG:Event present in queue
+2020-10-14 21:22:30,612 DEBUG:Trying to send event to platform
+2020-10-14 21:22:30,612 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:22:32,161 DEBUG:Event not sent due to some problem
+2020-10-14 21:22:32,161 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:27:32,170 DEBUG:Event present in queue
+2020-10-14 21:27:32,170 DEBUG:Trying to send event to platform
+2020-10-14 21:27:32,170 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:27:33,629 DEBUG:Event not sent due to some problem
+2020-10-14 21:27:33,629 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:32:33,638 DEBUG:Event present in queue
+2020-10-14 21:32:33,638 DEBUG:Trying to send event to platform
+2020-10-14 21:32:33,639 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:32:37,251 DEBUG:Event not sent due to some problem
+2020-10-14 21:32:37,252 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:37:37,265 DEBUG:Event present in queue
+2020-10-14 21:37:37,265 DEBUG:Trying to send event to platform
+2020-10-14 21:37:37,265 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:37:38,618 DEBUG:Event not sent due to some problem
+2020-10-14 21:37:38,618 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:42:38,631 DEBUG:Event present in queue
+2020-10-14 21:42:38,631 DEBUG:Trying to send event to platform
+2020-10-14 21:42:38,631 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:42:57,495 DEBUG:Event not sent due to some problem
+2020-10-14 21:42:57,495 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:47:57,507 DEBUG:Event present in queue
+2020-10-14 21:47:57,507 DEBUG:Trying to send event to platform
+2020-10-14 21:47:57,507 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:48:01,321 DEBUG:Event not sent due to some problem
+2020-10-14 21:48:01,321 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-14 21:53:01,328 DEBUG:Event present in queue
+2020-10-14 21:53:01,329 DEBUG:Trying to send event to platform
+2020-10-14 21:53:01,329 DEBUG:{'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-14T21:04:13.143507+07:00', 'source': 'Sublime Text Plugin', 'actionTags': ['Develop'], 'properties': {'duration': 161, 'Environment': 'Sublime Text 3211'}, 'streamid': ''}
+2020-10-14 21:53:06,273 DEBUG:Event not sent due to some problem
+2020-10-14 21:53:06,273 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-15 21:03:52,524 DEBUG:Event present in queue
+2020-10-15 21:03:52,527 DEBUG:Trying to send event to platform
+2020-10-15 21:03:52,527 DEBUG:{'streamid': '', 'version': 'v0.0.17', 'actionTags': ['Develop'], 'source': 'Sublime Text Plugin', 'dateTime': '2020-10-15T21:03:52.524242+07:00', 'objectTags': ['Computer', 'Software'], 'properties': {'duration': 55, 'Environment': 'Sublime Text 3211'}}
+2020-10-15 21:04:13,549 DEBUG:Event not sent due to some problem
+2020-10-15 21:04:13,549 ERROR:<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+Traceback (most recent call last):
+  File "./python3.3/urllib/request.py", line 1248, in do_open
+  File "./python3.3/http/client.py", line 1065, in request
+  File "./python3.3/http/client.py", line 1103, in _send_request
+  File "./python3.3/http/client.py", line 1061, in endheaders
+  File "./python3.3/http/client.py", line 906, in _send_output
+  File "./python3.3/http/client.py", line 844, in send
+  File "./python3.3/http/client.py", line 822, in connect
+  File "./python3.3/socket.py", line 435, in create_connection
+  File "./python3.3/socket.py", line 426, in create_connection
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1251, in do_open
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+2020-10-15 21:09:13,573 DEBUG:Event present in queue
+2020-10-15 21:09:13,574 DEBUG:Trying to send event to platform
+2020-10-15 21:09:13,574 DEBUG:{'streamid': '', 'version': 'v0.0.17', 'actionTags': ['Develop'], 'source': 'Sublime Text Plugin', 'dateTime': '2020-10-15T21:03:52.524242+07:00', 'objectTags': ['Computer', 'Software'], 'properties': {'duration': 55, 'Environment': 'Sublime Text 3211'}}
+2020-10-15 21:09:15,599 DEBUG:Event not sent due to some problem
+2020-10-15 21:09:15,599 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-15 21:11:37,479 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:11:37,599 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:11:37,626 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:37,670 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:11:37,671 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:37,679 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:11:37,727 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:11:37,743 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:11:37,779 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:11:37,826 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:11:37,873 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:11:37,891 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:11:41,733 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:11:41,734 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:11:51,975 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:11:51,976 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:00,142 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:00,143 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:01,724 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:01,726 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:03,288 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:03,289 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:05,136 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:05,137 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:06,932 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:06,933 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:09,295 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:09,296 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:13,425 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:13,426 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:24,963 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:24,964 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:26,445 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:28,189 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:28,190 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:29,799 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:29,800 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:31,106 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:31,107 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:33,008 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:33,009 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:34,376 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:34,377 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:36,096 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:36,097 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:37,299 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:37,300 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:40,153 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:40,154 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:42,281 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:42,282 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:43,604 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:43,605 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:44,712 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:44,713 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:46,077 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:46,078 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:48,983 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:48,984 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:51,226 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:51,227 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:52,539 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:52,540 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:12:54,595 DEBUG:Successfuly imported extension module "mdpopups.mdx.highlight".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.inlinehilite".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.superfences".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.highlight".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "markdown.extensions.admonition".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "markdown.extensions.attr_list".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "markdown.extensions.def_list".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.betterem".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.magiclink".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "pymdownx.extrarawhtml".
+2020-10-15 21:12:54,596 DEBUG:Successfuly imported extension module "markdown.extensions.nl2br".
+2020-10-15 21:14:15,605 DEBUG:Event present in queue
+2020-10-15 21:14:15,606 DEBUG:Trying to send event to platform
+2020-10-15 21:14:15,606 DEBUG:{'streamid': '', 'version': 'v0.0.17', 'actionTags': ['Develop'], 'source': 'Sublime Text Plugin', 'dateTime': '2020-10-15T21:03:52.524242+07:00', 'objectTags': ['Computer', 'Software'], 'properties': {'duration': 55, 'Environment': 'Sublime Text 3211'}}
+2020-10-15 21:14:20,347 DEBUG:Event not sent due to some problem
+2020-10-15 21:14:20,347 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
+2020-10-15 23:06:16,759 DEBUG:Event present in queue
+2020-10-15 23:06:16,760 DEBUG:Trying to send event to platform
+2020-10-15 23:06:16,760 DEBUG:{'actionTags': ['Develop'], 'source': 'Sublime Text Plugin', 'streamid': '', 'version': 'v0.0.17', 'objectTags': ['Computer', 'Software'], 'dateTime': '2020-10-15T23:06:16.759094+07:00', 'properties': {'Environment': 'Sublime Text 3211', 'duration': 51}}
+2020-10-15 23:06:17,546 DEBUG:Event not sent due to some problem
+2020-10-15 23:06:17,546 ERROR:''
+Traceback (most recent call last):
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 261, in send_events_from_queue
+    self.send_event_to_platform(event)
+  File "C:\Users\akbar\AppData\Roaming\Sublime Text 3\Installed Packages\1Self.sublime-package\1self.py", line 280, in send_event_to_platform
+    response = urllib2.urlopen(req)
+  File "./python3.3/urllib/request.py", line 156, in urlopen
+  File "./python3.3/urllib/request.py", line 469, in open
+  File "./python3.3/urllib/request.py", line 487, in _open
+  File "./python3.3/urllib/request.py", line 447, in _call_chain
+  File "./python3.3/urllib/request.py", line 1274, in http_open
+  File "./python3.3/urllib/request.py", line 1253, in do_open
+  File "./python3.3/http/client.py", line 1147, in getresponse
+  File "./python3.3/http/client.py", line 358, in begin
+  File "./python3.3/http/client.py", line 328, in _read_status
+http.client.BadStatusLine: ''
