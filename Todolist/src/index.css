@@ -1,0 +1,148 @@
+:root {
+	--bg-color: #00c8ff;
+	--primary-color: #00ff1a;
+	--secondary-color: #ff0000;
+}
+
+body {
+  background: var(--bg-color);
+  padding: 80px 0;
+  position: relative;
+  font-size: 100%;
+  transition: all 0.3s linear;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px;
+}
+
+.container .head {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 29%;
+  margin-bottom: 50px;
+}
+
+.head input {
+  padding: 13px 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter {
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 576px) {
+  .filter {
+    flex-direction: column;
+  }
+}
+
+.filter button.active {
+  background-color: var(--secondary-color);
+}
+
+.tasks-wrapper {
+  list-style: none;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.task {
+  padding: 4px 20px 5px 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-align: left;
+  transition: all 0.5s ease;
+}
+
+.task p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  flex: 1;
+}
+
+.task button {
+  background-color: #ff0000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+}
+
+.task button:hover {
+  color: var(--primary-color);
+  opacity: 0.85;
+  border-radius: 10px;
+}
+
+.tasks-wrapper .task-done {
+  opacity: 10;
+}
+
+.tasks-wrapper .task-done p {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.color-container {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.color-container > span {
+  border-radius: 5px;
+}
+
+.preventClick {
+  pointer-events: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
